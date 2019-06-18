@@ -1,4 +1,9 @@
 <?php
+error_reporting(0);
+include('get_ip.php');
+
+
+
 	if(isset($_POST['login'])){
 		
 		if(empty($_POST['email'])){
