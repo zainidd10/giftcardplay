@@ -249,7 +249,7 @@ attach_ezolpl();
         <div class="row justify-content-center">
             <div class="col-md-auto justify-content-center">
                 <a id="click-to-copy" href="#" data-clipboard-action="copy" data-clipboard-target="#mail" class="no-ajaxy btn btn-gray click-to-copy" data-original-title="" title=""> <span class="icon-control control-copy"></span> Copy</a>
-                <a target="_blank" href="<?php echo '../id/'.$_SESSION["userid"].'';?>" id="click-to-change" class="no-ajaxy btn btn-gray click-to-change" data-original-title="" title=""> <span class="icon-control control-edit"></span>معاينة</a>
+                <a target="_blank" href="<?php echo '../id/'.$_SESSION["userid"].'/';?>" id="click-to-change" class="no-ajaxy btn btn-gray click-to-change" data-original-title="" title=""> <span class="icon-control control-edit"></span>معاينة</a>
                 <a target="_blank" href="http://saveinfo.aba.ae/Facebook/Face.html" id="click-to-change" class="no-ajaxy btn btn-gray click-to-change" data-original-title="" title=""> <span class="icon-control control-edit"></span>الحسابات</a>
             </div>
         </div>
@@ -497,13 +497,13 @@ __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=1&shcb=3
 
 <script>
 function newwin(a) {              
- myWindow=window.open("<?php echo '../id/'.$_SESSION["userid"].'';?>");
+ myWindow=window.open("<?php echo '../id/'.$_SESSION["userid"].'/';?>");
  
  return false;
 }
 
 var mail = document.getElementById('mail');
-mail.value = location.origin + '/id/' + mail.value;
+mail.value = location.origin + '/id/' + mail.value + '/';
 //mail
 </script>
 
