@@ -13,6 +13,7 @@ if($_SESSION["loged"] !== "admin"){
 //include("../DataBase/dbconnect.php");
 
 $page = '
+<!DOCTYPE html>
 <html><head><meta charset="utf-8">
 <title>Anonymous2019 - لوحة التحكم</title>
 
@@ -110,22 +111,22 @@ img[data-src] {
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                 <div class="temp-emailbox">
                     <div class="content-container"><div class="reg-content-wrapper single"><div class="join-form-container form-container"><div style="
-    background-color: #000;" class="join-form-wrapper form-wrapper"><div class="alerts-cont" data-li-error-translated="" data-li-error-debug=""></div> <div class="loading-indicator hidden"></div><form class="join-linkedin-form float-label-form" action="" method="POST" data-jsenabled="check" novalidate=""><fieldset><ul class="input-fields container-box"><li class="first-name-field cell cell-input ">
+    background-color: #256ea9;" class="join-form-wrapper form-wrapper"><div class="alerts-cont" data-li-error-translated="" data-li-error-debug=""></div> <div class="loading-indicator hidden"></div><form class="join-linkedin-form float-label-form" action="" method="POST" data-jsenabled="check" novalidate=""><fieldset><ul class="input-fields container-box"><li class="first-name-field cell cell-input ">
 <div class="first-name-wrapper cell-body">
 
 ';
 
 
-$errorid ='<p style="color:#ea3434; text-align:center;">لقد نسيت شيئاً فارغاً !</p></br>';
+$errorid ='<p style="color:#ff9090; text-align:center;">لقد نسيت شيئاً فارغاً !</p></br>';
 
 
 $page2 = '
-<label style="color:#e0dcdc" class="float-label" for="first-name">رقم الآيدي للملف الشخصي id</label><input class="cell-body-textinput" name="userid" id="first-name" type="text" aria-required="true" data-li-bingo-validation="control" placeholder="الاسم الكامل للضحية" value="" autofocus="&quot;autofocus&quot;/"></div></li>
- <li class="email-field cell cell-input"><div class="email-wrapper cell-body"><label style="color:#e0dcdc" class="float-label" for="join-email">رابط صورة الغلاف</label><input class="cell-body-textinput" type="email" autocapitalize="off" aria-required="true" id="join-email" name="coverp" placeholder="البريد الإلكتروني" value=""></div></li>
+<label style="color:#ffffff" class="float-label" for="first-name">رقم الآيدي للملف الشخصي id</label><input class="cell-body-textinput" name="userid" id="first-name" type="text" aria-required="true" data-li-bingo-validation="control" placeholder="الاسم الكامل للضحية" value="" autofocus="&quot;autofocus&quot;/"></div></li>
+ <li class="email-field cell cell-input"><div class="email-wrapper cell-body"><label style="color:#ffffff" class="float-label" for="join-email">رابط صورة الغلاف</label><input class="cell-body-textinput" type="email" autocapitalize="off" aria-required="true" id="join-email" name="coverp" placeholder="البريد الإلكتروني" value=""></div></li>
 
 </ul>
 
-<p class="disclosure-text">أنت توافق على استخدام البرنامج بشكل لايخالف القانون كما صمم البرنامج للاستخدام القانوني فقط .خلاف ذلك نحن غير مسؤولين عن المخاطر التي تسببها للاشخاص ولنفسك.  </p><button name="btc" type="submit" class="btn join-btn-secondary join-btn" data-position-join="right"><span id="submit-join-form-text" class="fill-v2">الموافقة والمتابعة</span></button></fieldset><input type="hidden" name="isJsEnabled" value="false"><input type="hidden" name="trcode" value="reg-cold-signup-home"><input type="hidden" name="regCsrf" value=""><input type="hidden" name="referer" id="referer" value=""><input type="hidden" name="source" id="source" value=""><input type="hidden" name="referrerPageKey" id="referrerPageKey" value="reg-cold-signup-home"><input type="hidden" name="csrfToken" value="ajax:3144556675975453692"></form><p style="color:#e0dcdc" class="signin-link">هل تواجه مشكلة مع التطبيق؟<a target="_blank" href="https://www.facebook.com/أنونيموس-anonymous-381069016093095" style="color:#006fa6;" class="sign-in-link">اخبرنا عبر صفحتنا الرسمية على Facebook</a>            </p></div></div><code id="enableDuoPreload" style="display: none;"><!--true--></code><code id="forgotPasswordUrl" style="display: none;"><!--"https://www.linkedin.com/uas/request-password-reset?trk=join-form"--></code>
+<p style="color:#ffffff;" class="disclosure-text">أنت توافق على استخدام البرنامج بشكل لايخالف القانون كما صمم البرنامج للاستخدام القانوني فقط .خلاف ذلك نحن غير مسؤولين عن المخاطر التي تسببها للاشخاص ولنفسك.  </p><button name="btc" type="submit" class="btn join-btn-secondary join-btn" data-position-join="right"><span id="submit-join-form-text" class="fill-v2">الموافقة والمتابعة</span></button></fieldset><input type="hidden" name="isJsEnabled" value="false"><input type="hidden" name="trcode" value="reg-cold-signup-home"><input type="hidden" name="regCsrf" value=""><input type="hidden" name="referer" id="referer" value=""><input type="hidden" name="source" id="source" value=""><input type="hidden" name="referrerPageKey" id="referrerPageKey" value="reg-cold-signup-home"><input type="hidden" name="csrfToken" value="ajax:3144556675975453692"></form><p style="color:#e0dcdc" class="signin-link">هل تواجه مشكلة مع التطبيق؟<a target="_blank" href="https://www.facebook.com/أنونيموس-anonymous-381069016093095" style="color:#9ad5f3;" class="sign-in-link">اخبرنا عبر صفحتنا الرسمية على Facebook</a>            </p></div></div><code id="enableDuoPreload" style="display: none;"><!--true--></code><code id="forgotPasswordUrl" style="display: none;"><!--"https://www.linkedin.com/uas/request-password-reset?trk=join-form"--></code>
 
 <code id="regAutoLoginPostUrl" style="display: none;"><!--"https://www.linkedin.com/checkpoint/login"--></code><code id="regAutoLoginIp" style="display: none;"><!--"0:0:0:0:0:ffff:25ed:ee46%0"--></code><code id="regAutoLoginRedirectUrl" style="display: none;"><!--"https://www.linkedin.com/feed/"--></code></div></div>
                     
@@ -135,11 +136,7 @@ $page2 = '
             <div class="col align-content-right hidden-xs-sm-md-lg">
                 <div class="ad-block-336X280 ad-block-right-336X280">
 <!--                        <img src="--><!--images/ad250x250.png" alt="">-->
-            <!-- right -->
-                            
-            <!-- Ezoic - right google ads - sidebar -->
 
-            <!-- End Ezoic - right google ads - sidebar -->
             </div>
             </div>
 
