@@ -1,8 +1,9 @@
 <?php
+session_start();
 error_reporting(0);
-include('get_ip.php');
 
 
+//$_SESSION["users"] = "1";
 
 	if(isset($_POST['login'])){
 		

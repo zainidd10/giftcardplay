@@ -1,0 +1,6 @@
+<?php
+
+
+header("LOCATION: ../login/");
+
+?>

